@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLiang</title>
+
+    <!-- meta, link css, font -->
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+    <!--icon-->
+    <link rel="stylesheet" href="css/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/adminlte.min.css">
+
+</head>
+
+<body class="hold-transition sidebar-mini layout-navbar-fixed">
+    <div class="wrapper">
+        <!-- Navbar เมนูบน -->
+        <nav class="main-header navbar navbar-expand navbar-cyan navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+            <!-- เมนูแถบบน-->
+            <ul class="navbar-nav ml-auto"></ul>
+            <a href="index.html" class="btn btn-lg btn-info" style="font-family: 'Lobster', cursive;">Logout<i
+                    class="fas fa-user-circle"></i></a>
+
+            </ul>
+        </nav>
+
+        <!-- Main Sidebar Container เมนูด้านข้าง -->
+        <aside class="main-sidebar sidebar-dark-info ">
+            <!-- Brand Logo -->
+            <a href="dashboard.html" class="brand-link">
+                <img src="image/pp.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                    style="opacity: .8">
+                <span class="brand-text font-weight-light">Admin OLiang</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user panel (optional) -->
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="image">
+                        <img src="image/p2.jpg" class="img-circle elevation-2" alt="User Image">
+                    </div>
+                    <div class="info">
+                        <a href="#" class="d-block">Sawika Pathaya</a>
+                    </div>
+                </div>
+
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+         with font-awesome or any other icon font library -->
+                        <li class="nav-item menu-open">
+                            <a href="#" class="nav-link active">
+                                <i class="fab fa-earlybirds"></i></i>
+                                <p>
+                                    ข้อมูลส่วนตัว
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="Pprofile.html" class="nav-link active">
+                                        <i class="far fa-building"></i>
+                                        <p>O Liang</p>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="school.html" class="nav-link active">
+                                        <i class="fas fa-book-reader"></i>
+                                        <p>Educational history</p>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item ">
+
+                            <a href="contack.html" class="nav-link ">
+                                <i class="far fa-envelope"></i>
+                                <p>
+                                    ติดต่อ
+                                    <span class="right badge badge-warning">New</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+
+        <!-- Content Wrapper. Contains page content เนื้อหา -->
+        <div class="content-wrapper" style="background: url(image/a1.jpg);">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h3 class="card-title" style="font-size: 30px; color:rgb(122, 80, 124)">
+                                <lead style="font-family: 'Pangolin', cursive;">Educational</lead>
+                            </h3>
+
+                        </div><!-- /.col -->
+
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+
+            <div class="content">
+                <div class="container-fluid">
+                    <!-- โรงเรียน -->
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="info-box mb-4">
+                                <img src="image/sc1.jpg" alt="" width="25%" height="25%">
+
+                                <div class="info-box-content">
+                                    <span class="info-box-number"
+                                        style="font-family: 'Mitr', sans-serif; color: #4f6ea3;">ระดับประถมศึกษา</span>
+                                    <span class="info-box-number"
+                                        style="font-family: 'Mitr', sans-serif;">โรงเรียนบ้านสันมะเค็ดสันขี้เหล็กหัวฝายพัฒนา</span>
+                                    <a class="far fa-compass "
+                                        href="https://data.bopp-obec.info/emis/schooldata-view.php?School_ID=1057120495&Area_CODE=5702 "
+                                        class="nav-link"></a></i>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="info-box mb-4">
+                                <img src="image/sc2.jpg" alt="" width="25%" height="25%">
+
+                                <div class="info-box-content">
+                                    <span class="info-box-number"
+                                        style="font-family: 'Mitr', sans-serif; color: #4f6ea3;">มัธยมศึกษาตอนปลาย</span>
+                                    <span class="info-box-number"
+                                        style="font-family: 'Mitr', sans-serif;">โรงเรียนแม่เจดีย์วิทยาคม</span>
+                                    <a class="far fa-compass" href="http://maejadee.ac.th/ " class="nav-link"></a></i>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="info-box mb-4">
+                                <img src="image/sc3.png" alt="" width="25%" height="25%">
+                                <div class="info-box-content">
+                                    <span class="info-box-number"
+                                        style="font-family: 'Mitr', sans-serif; color: #4f6ea3;">อุดมศึกษา</span>
+                                    <span class="info-box-number"
+                                        style="font-family: 'Mitr', sans-serif;">วิทยาการคอมพิวเตอร์
+                                        มหาวิทยาลัยแม่โจ้</span>
+                                    <a class="far fa-compass" href="http://csmju.jowave.com/" class="nav-link"></a></i>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                            <!-- /.info-box -->
+                        </div>
+                        <!-- /.col -->
+                    </div>
+
+                    <!-- กราฟ GPA ทุกเทอม -->
+                    <!-- BAR CHART -->
+                    <div class="card card-cyan">
+                        <div class="card-header ">
+                            <h3 class="card-title " style="font-family: 'Mitr', sans-serif;">กราฟ GPA</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart">
+                                <canvas id="barChart"
+                                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!--โปรแกรม-->
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <!-- DONUT CHART -->
+                            <div class="card card-teal">
+                                <div class="card-header">
+
+                                    <h4 style="font-family: 'Pangolin', cursive; color: #406734;">Programming</h4>
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="donutChart"
+                                        style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="card card-dark">
+                                <div class="card-header" style="height: 100%; width: 100%;">
+                                    <h4 class="text-center" style="font-family: 'Mitr', sans-serif; color:#bacfff;">
+                                        กราฟความสามารถ</h4>
+
+
+                                    <div class="progress-group">
+                                        DevC++
+                                        <span class="float-right"><b>50</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-pink" style="width: 50%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- /.progress-group -->
+
+                                    <div class="progress-group">
+                                        Java
+                                        <span class="float-right"><b>45</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-red" style="width: 45%"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress-group">
+                                        Python
+                                        <span class="progress-text"></span>
+                                        <span class="float-right"><b>35</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-orange" style="width: 35%"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress-group">
+                                        Html
+                                        <span class="float-right"><b>35</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-warning" style="width: 35%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-group">
+                                        Colab
+                                        <span class="float-right"><b>35</b>/100</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-green" style="width: 15%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content -->
+        </div>
+
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2014-2020 <a href="dashboard.html">Admin.OLiang</a>.</strong> All
+            rights
+            reserved.
+        </footer>
+    </div>
+
+    <!-- script -->
+    <!-- jQuery -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- ChartJS -->
+    <script src="js/chart.js/Chart.min.js"></script>
+
+    <!-- AdminLTE App -->
+    <script src="js/dist/adminlte.min.js"></script>
+
+
+    <script>
+        $(function () {
+            /* ChartJS
+             * -------
+             * Here we will create a few charts using ChartJS
+             */
+            var areaChartData = {
+                labels: ['1/1', '1/2', '2/1', '2/1', '3/1'],
+                datasets: [
+                    {
+                        label: 'GPA',
+                        backgroundColor: 'rgb(255, 191, 172)',
+                        borderColor: 'rgb(255, 191, 151)',
+                        pointRadius: false,
+                        pointColor: '#3b8bba',
+                        pointStrokeColor: 'rgba(60,141,188,1)',
+                        pointHighlightFill: '#fff',
+                        pointHighlightStroke: 'rgb(93, 112, 165)',
+                        data: [3.08, 2.50, 3.00, 2.91, 0.00]
+                    },
+                ]
+            }
+            //-------------
+            //- DONUT CHART -
+            //-------------
+            // Get context with jQuery - using jQuery's .get() method.
+            var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
+            var donutData = {
+                labels: [
+                    'DevC++',
+                    'Java',
+                    'Python',
+                    'Html',
+                    'Colab',
+
+                ],
+                datasets: [
+                    {
+                        data: [50, 45, 35, 35, 15],
+                        backgroundColor: ['#ff9f99', '#ff574b', '#ff9f51', '#ffdf32', '#86e566'],
+                    }
+                ]
+            }
+            var donutOptions = {
+                maintainAspectRatio: false,
+                responsive: true,
+            }
+            //Create pie or douhnut chart
+            // You can switch between pie and douhnut using the method below.
+            var donutChart = new Chart(donutChartCanvas, {
+                type: 'doughnut',
+                data: donutData,
+                options: donutOptions
+            })
+            //-------------
+            //- BAR CHART -
+            //-------------
+            var barChartCanvas = $('#barChart').get(0).getContext('2d')
+            var barChartData = $.extend(true, {}, areaChartData)
+            var temp0 = areaChartData.datasets[0]
+            //var temp1 = areaChartData.datasets[1]
+            barChartData.datasets[0] = temp0
+            //barChartData.datasets[1] = temp0
+
+            var barChartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                datasetFill: false
+            }
+
+            var barChart = new Chart(barChartCanvas, {
+                type: 'bar',
+                data: barChartData,
+                options: barChartOptions
+            })
+
+            //---------------------
+            //- STACKED BAR CHART -
+            //---------------------
+            var stackedBarChartCanvas = $('#stackedBarChart').get(0).getContext('2d')
+            var stackedBarChartData = $.extend(true, {}, barChartData)
+
+            var stackedBarChartOptions = {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    xAxes: [{
+                        stacked: true,
+                    }],
+                    yAxes: [{
+                        stacked: true
+                    }]
+                }
+            }
+
+            var stackedBarChart = new Chart(stackedBarChartCanvas, {
+                type: 'bar',
+                data: stackedBarChartData,
+                options: stackedBarChartOptions
+            })
+        })
+    </script>
+</body>
+
+</html>
